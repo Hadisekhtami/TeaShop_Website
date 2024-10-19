@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: 'Belfika Namor';
+    src: url(./Belfika+Namor.eot);
+    src: url(./Belfika+Namor.eot?#iefix) format('embedded-opentype'),
+         url(./Belfika+Namor.woff2) format('woff2'),
+         url(./Belfika+Namor.woff) format('woff'),
+         url(./Belfika+Namor.ttf) format('truetype'),
+         url(./Belfika+Namor.otf) format('otf');
+  }
+  
+*
+{
+    color: black;
+    text-decoration: none!important;  
+}
+html
+{
+    font-size: 16px;
+}
+.top-menu-brand .decripition-up
+{
+    font-family: 'Belfika Namor';
+}
+.text-brand
+{
+    font-size: 1.6rem;
+    font-family: 'Belfika Namor';
+    color: #6b4129;
+}
+hr.style-eight
+{
+    overflow: visible; 
+    border-top:  solid rgb(28, 2, 52);
+    color: rgb(34, 4, 62);
+    text-align: center;
+    opacity: 1; 
+}
+hr.style-eight:after
+{
+    content: "New Arrivals";
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    padding: 0 15px;
+    background:white;
+    font-family: 'B Titr';
+    font-size: 1.3rem;
+}
+.card
+{
+    border: none;
+    background-color: #ececec;
+}
+.card:hover
+{
+    box-shadow: 10px 10px  20px #e2e2e2;
+    transform: translate(5px, -30px);
+    transition: all .5s ease-in-out;
+}
+.card-text
+{
+    font-size: 1.1rem;
+}
+.card-text:hover
+{
+  font-weight: bold;
+}
+.price
+{
+    color: green;
+}
+.blog
+{
+    min-height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../Img/w1.jpg) center/cover no-repeat;
+}
+.blog-title
+{
+    color: white;
+    font-size: 2rem;
+    font-family:'FH Collena';
+}
+.carousel
+{
+    margin-top: 5px!important;
+}
+@media screen and (max-width:600px) 
+{
+    .card
+    {
+      width: 300px;
+      margin: auto!important;
+    }
+  
+}
